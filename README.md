@@ -5,9 +5,12 @@ Projeto **Spring Boot (3ESPF/3ESA)** com **CRUD de Instrutor e Aluno**, **health
 ---
 
 ## 👥 Integrantes
-- **[Nome 1]** (RM: ______)
-- **[Nome 2]** (RM: ______)
-- **[Nome 3]** (RM: ______)
+
+GUILHERME ROCHA BIANCHINI - RM97974
+NIKOLAS RODRIGUES MOURA DOS SANTOS - RM551566
+PEDRO HENRIQUE PEDROSA TAVARES - RM97877
+RODRIGO BRASILEIRO - RM98952
+THIAGO JARDIM DE OLIVEIRA - RM551624
 
 > Substitua pelos nomes/ RMs do grupo antes de enviar o link no Portal do Aluno.
 
@@ -43,6 +46,8 @@ spring.jpa.properties.hibernate.format_sql=true
 spring.flyway.enabled=true
 spring.flyway.locations=classpath:db/migration
 ```
+
+LEMBRE-SE DE COLOCAR SUA SENHA NO Application.properties !!!!!
 
 > Ao iniciar, o **Flyway** aplica automaticamente as migrações (V1…V6).
 
@@ -184,26 +189,6 @@ br.com.fiap3espf.spring_boot_project
   **Regra:** somente com **≥24h** de antecedência.
 
 ---
-
-## 🧪 Postman (opcional)
-Inclua no repositório uma pasta `postman/` com:
-- `AutoEscola_CP1.postman_collection.json`
-- `AutoEscola_Localhost.postman_environment.json`
-
-Importe no Postman e execute na ordem: **Health → Instrutor → Aluno → Aulas**.
-
----
-
-## ✅ Checklist de entrega
-- Repositório **público** no GitHub
-- `README.md` com **nomes dos integrantes** e instruções
-- Link do repositório enviado no **Portal do Aluno** (apenas **um** integrante)
-- App sobe e `GET /health-check` responde
-- CRUD **Instrutor/Aluno** funcional
-- Agendamento/Cancelamento com regras implementadas
-
----
-
 ## ℹ️ Observações
 - Campo booleano `ativo` usa **`BIT(1)`** no MySQL (compatível com Hibernate 6).
 - Em desenvolvimento, para reiniciar migrações: **drope o DB** e suba novamente.
