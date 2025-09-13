@@ -12,8 +12,6 @@ PEDRO HENRIQUE PEDROSA TAVARES - RM97877 <br/>
 RODRIGO BRASILEIRO - RM98952 <br/>
 THIAGO JARDIM DE OLIVEIRA - RM551624
 
-> Substitua pelos nomes/ RMs do grupo antes de enviar o link no Portal do Aluno.
-
 ---
 
 ## 🧰 Stack
