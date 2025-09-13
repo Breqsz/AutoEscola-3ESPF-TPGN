@@ -1,6 +1,6 @@
 # API Auto-Escola — Checkpoint 1
 
-Projeto **Spring Boot (3ESPF/3ESA)** com **CRUD de Instrutor e Aluno**, **health-check**, **Flyway** e **agendamento/cancelamento de aulas** com regras de negócio.
+Projeto **Spring Boot (3ESPF - TPGN)** com **CRUD de Instrutor e Aluno**, **health-check**, **Flyway** e **agendamento/cancelamento de aulas** com regras de negócio.
 
 ---
 
